@@ -1,3 +1,9 @@
+.post {
+  position: relative;
+  transition: all 300ms 0ms ease-in;
+}
+
+
 .grid-block, .main, .post, .comments li, .comment-form {
   background: #fff;
   -webkit-border-radius: 3px;
