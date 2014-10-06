@@ -31,7 +31,7 @@ Template.postEdit.events({
     if (confirm("Delete this post?")) {
       var currentPostId = Session.get('currentPostId');
       Posts.remove(currentPostId);
-      Router.go('postsList');
+      Router.go('home');
     }
   }
 });
